@@ -1,0 +1,6 @@
+body {
+    background-image: url(img/BRYAN.jpg);
+    background-size: cover; /*Faz a imagem ocupar a tela inteira */
+    background-attachment: fixed; /* A imagem fica parada ao rolar a página */
+    color: #FFFFFF; 
+ }

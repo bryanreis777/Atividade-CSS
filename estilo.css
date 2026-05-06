@@ -1,6 +1,41 @@
 body {
-    background-image: url(img/BRYAN.jpg);
-    background-size: cover; /*Faz a imagem ocupar a tela inteira */
-    background-attachment: fixed; /* A imagem fica parada ao rolar a página */
-    color: #FFFFFF; 
- }
+  margin: 0; /* Importante para remover espaços em branco nas bordas */
+  background-image: url(img/wp2680735-freestyle-soccer-wallpapers.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; /* Garante que o centro da foto sempre apareça */
+  color: white;
+}
+
+.background {
+  height: 200vh; 
+  
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+.center {
+  background-color: hsl(225, 90%, 16%);
+  padding: 40px;
+  border-radius: 20px; /* Bordas um pouco mais arredondadas */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 1000px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 100%;
+  max-width: 300px; /* Mas não deixa passar de 300px */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+#pal{
+    height: 250px;
+}
+.title{
+    text-align: center;
+}
+

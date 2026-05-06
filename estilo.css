@@ -5,10 +5,13 @@ body {
   background-attachment: fixed;
   background-position: center; /* Garante que o centro da foto sempre apareça */
   color: white;
+  b{
+    color: lab(49.07% -0.26 -45.7);
+  }
 }
 
 .background {
-  height: 200vh; 
+  height: 100%; 
   
   display: flex;
   justify-content: center; 
@@ -17,7 +20,8 @@ body {
 }
 
 .center {
-  background-color: hsl(225, 90%, 16%);
+  
+  background-color: hwb(225 1% 85%);
   padding: 40px;
   border-radius: 20px; /* Bordas um pouco mais arredondadas */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -37,5 +41,20 @@ img {
 }
 .title{
     text-align: center;
+    color: lab(49.07% -0.26 -45.7);
+}
+.lista{
+  float: right;
+
+  
+}
+.prota{
+   float: left;border: 5px solid #ccc; margin-right: 20px; width:270px; height:35 0px;
+}
+.list{
+  float: left; width: 500px; 
+ 
+  width: 48%; background-color: hsla(241, 93%, 17%, 0.938); padding: 20px; border-radius: 5px; border: 1px solid #ccc;
+
 }
 

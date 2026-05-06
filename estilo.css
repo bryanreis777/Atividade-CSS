@@ -57,4 +57,12 @@ img {
   width: 48%; background-color: hsla(241, 93%, 17%, 0.938); padding: 20px; border-radius: 5px; border: 1px solid #ccc;
 
 }
+.fundo{
+   background-color: #064752f6;
+  padding: 40px;
+  border-radius: 20px; /* Bordas um pouco mais arredondadas */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 1000px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 

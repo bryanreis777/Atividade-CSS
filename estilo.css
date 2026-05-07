@@ -1,9 +1,9 @@
 body {
-  margin: 0; /* Importante para remover espaços em branco nas bordas */
+  margin: 0;
   background-image: url(img/wp2680735-freestyle-soccer-wallpapers.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center; /* Garante que o centro da foto sempre apareça */
+  background-position: center;
   color: white;
   b{
     color: lab(49.07% -0.26 -45.7);

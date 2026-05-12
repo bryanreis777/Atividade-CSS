@@ -81,5 +81,9 @@ border: 2px solid lch(47.41% 55.27 147.27) ;
 padding: 10px;
 }
 }
-
+.links{
+  a{
+    color: burlywood;
+  }
+}
 
